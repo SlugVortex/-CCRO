@@ -37,43 +37,30 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-      - name: Enable static website
-        env:
-          AZURE_STORAGE_ACCOUNT_KEY: ${{ secrets.AZURE_STORAGE_ACCOUNT_KEY }}
+      - name: Resolve frontend storage key
         run: |
-          if [ -n "$AZURE_STORAGE_ACCOUNT_KEY" ]; then
-            az storage blob service-properties update \
-              --account-name "${{ secrets.AZURE_STORAGE_ACCOUNT }}" \
-              --account-key "$AZURE_STORAGE_ACCOUNT_KEY" \
-              --static-website \
-              --index-document index.html \
-              --404-document 404.html
-          else
-            az storage blob service-properties update \
-              --account-name "${{ secrets.AZURE_STORAGE_ACCOUNT }}" \
-              --auth-mode login \
-              --static-website \
-              --index-document index.html \
-              --404-document 404.html
-          fi
+          ACCOUNT_KEY="$(az storage account keys list \
+            --resource-group "${{ secrets.AZURE_RESOURCE_GROUP }}" \
+            --account-name "${{ secrets.AZURE_STORAGE_ACCOUNT }}" \
+            --query "[0].value" -o tsv)"
+          echo "::add-mask::$ACCOUNT_KEY"
+          echo "AZURE_STORAGE_ACCOUNT_KEY=$ACCOUNT_KEY" >> "$GITHUB_ENV"
+
+      - name: Enable static website
+        run: |
+          az storage blob service-properties update \
+            --account-name "${{ secrets.AZURE_STORAGE_ACCOUNT }}" \
+            --account-key "$AZURE_STORAGE_ACCOUNT_KEY" \
+            --static-website \
+            --index-document index.html \
+            --404-document 404.html
 
       - name: Upload frontend directly to $web
-        env:
-          AZURE_STORAGE_ACCOUNT_KEY: ${{ secrets.AZURE_STORAGE_ACCOUNT_KEY }}
         run: |
-          if [ -n "$AZURE_STORAGE_ACCOUNT_KEY" ]; then
-            az storage blob upload-batch \
-              --account-name "${{ secrets.AZURE_STORAGE_ACCOUNT }}" \
-              --account-key "$AZURE_STORAGE_ACCOUNT_KEY" \
-              --auth-mode key \
-              --destination '$web' \
-              --source dist \
-              --overwrite
-          else
-            az storage blob upload-batch \
-              --account-name "${{ secrets.AZURE_STORAGE_ACCOUNT }}" \
-              --auth-mode login \
-              --destination '$web' \
-              --source dist \
-              --overwrite
-          fi
+          az storage blob upload-batch \
+            --account-name "${{ secrets.AZURE_STORAGE_ACCOUNT }}" \
+            --account-key "$AZURE_STORAGE_ACCOUNT_KEY" \
+            --auth-mode key \
+            --destination '$web' \
+            --source dist \
+            --overwrite
