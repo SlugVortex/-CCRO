@@ -2,11 +2,8 @@
   <img src="https://i.ibb.co/jPxf89Sh/ig-0256af487c650db3016a2e23ae2ac8819382c56c2408a36a9f.png" alt="Caribbean Climate Resilience Orchestrator Banner" width="100%">
 </div>
 
-<div align="center">
-  <img src="https://i.ibb.co/hxqFTVSQ/ig-0256af487c650db3016a2e237cb7dc8193bb87b4d71bf7a97b.png" alt="Caribbean Climate Resilience Orchestrator Logo" width="320">
-</div>
-
-# Caribbean Climate Resilience Orchestrator
+<h1 align="center">Caribbean Climate Resilience Orchestrator</h1>
+<p align="center"><strong>Microsoft-native climate risk reasoning and adaptation planning pipeline</strong></p>
 
 [![Microsoft Foundry](https://img.shields.io/badge/Built%20for-Microsoft%20Foundry-5B5FC7?style=for-the-badge&logo=microsoft)](https://ai.azure.com/)
 [![Azure AI Search](https://img.shields.io/badge/Grounded%20with-Azure%20AI%20Search-0078D4?style=for-the-badge&logo=microsoftazure)](https://azure.microsoft.com/)
@@ -245,16 +242,59 @@ Full demo notes are in [docs/demo-runbook.md](docs/demo-runbook.md).
 
 ## Screenshots
 
-### GitHub Banner
+### Product Gallery
 
 <div align="center">
-  <img src="https://i.ibb.co/jPxf89Sh/ig-0256af487c650db3016a2e23ae2ac8819382c56c2408a36a9f.png" alt="CCRO GitHub Banner" width="100%">
-</div>
-
-### Brand Lockup
-
-<div align="center">
-  <img src="https://i.ibb.co/hxqFTVSQ/ig-0256af487c650db3016a2e237cb7dc8193bb87b4d71bf7a97b.png" alt="CCRO Brand Lockup" width="420">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <a href="https://ibb.co/s71qBvL">
+          <img src="https://i.ibb.co/kZDXdgY/Pasted-image-20260614222226.png" alt="Risk Map Dashboard" width="100%">
+        </a>
+        <br>
+        <sub><strong>Risk Map Dashboard</strong></sub>
+      </td>
+      <td align="center" width="50%">
+        <a href="https://ibb.co/NdG4PsMz">
+          <img src="https://i.ibb.co/7d095XqF/Pasted-image-20260614222256.png" alt="Regional Map Explorer" width="100%">
+        </a>
+        <br>
+        <sub><strong>Regional Map Explorer</strong></sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <a href="https://ibb.co/fdD1t0mg">
+          <img src="https://i.ibb.co/YB0R8jvC/Pasted-image-20260614222312.png" alt="Scenario Builder" width="100%">
+        </a>
+        <br>
+        <sub><strong>Scenario Builder</strong></sub>
+      </td>
+      <td align="center" width="50%">
+        <a href="https://ibb.co/1fN9yk2g">
+          <img src="https://i.ibb.co/BVJgW9sp/Pasted-image-20260614222354.png" alt="Recommendations Brief" width="100%">
+        </a>
+        <br>
+        <sub><strong>Recommendations Brief</strong></sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <a href="https://ibb.co/4Z9J8z9q">
+          <img src="https://i.ibb.co/BVdwybdp/Pasted-image-20260614222415.png" alt="Scenario Comparison Analytics" width="100%">
+        </a>
+        <br>
+        <sub><strong>Scenario Comparison Analytics</strong></sub>
+      </td>
+      <td align="center" width="50%">
+        <a href="https://ibb.co/hGvgQzS">
+          <img src="https://i.ibb.co/8yVmvZH/Pasted-image-20260614222332.png" alt="Scenario Outcome Detail" width="100%">
+        </a>
+        <br>
+        <sub><strong>Scenario Outcome Detail</strong></sub>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ### Architecture
@@ -262,19 +302,6 @@ Full demo notes are in [docs/demo-runbook.md](docs/demo-runbook.md).
 <div align="center">
   <img src="https://i.ibb.co/vxNg563H/image.png" alt="CCRO Architecture Diagram" width="900">
 </div>
-
-### Dashboard
-
-<div align="center">
-  <img src="docs/assets/demo-collage.svg" alt="Dashboard placeholder collage" width="900">
-</div>
-
-### Replace with real captures later
-
-- `docs/assets/screenshot-dashboard.png`
-- `docs/assets/screenshot-scenario-builder.png`
-- `docs/assets/screenshot-recommendations.png`
-- `docs/assets/screenshot-audit.png`
 
 ---
 
