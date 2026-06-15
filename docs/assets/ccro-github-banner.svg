@@ -1,0 +1,75 @@
+<svg width="1600" height="640" viewBox="0 0 1600 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="88" y1="74" x2="1460" y2="604" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1621"/>
+      <stop offset="1" stop-color="#123149"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="382" y1="150" x2="1220" y2="518" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#173851" stop-opacity="0.94"/>
+      <stop offset="1" stop-color="#0E2230" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="944" y1="110" x2="1330" y2="442" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A9D8F" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#D1495B" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="640" rx="40" fill="url(#bg)"/>
+  <circle cx="1305" cy="126" r="136" fill="#1E7F73" fill-opacity="0.18"/>
+  <circle cx="1416" cy="496" r="212" fill="#D1495B" fill-opacity="0.12"/>
+  <circle cx="180" cy="518" r="170" fill="#2A9D8F" fill-opacity="0.08"/>
+
+  <rect x="84" y="92" width="1432" height="456" rx="34" fill="url(#panel)" stroke="#2D455C" stroke-width="2"/>
+  <rect x="914" y="124" width="488" height="390" rx="30" fill="url(#accent)" stroke="#36556C"/>
+
+  <g>
+    <rect x="154" y="168" width="74" height="74" rx="18" fill="#2474F2"/>
+    <path d="M191 180L223 199.5L191 219L159 199.5L191 180Z" fill="#D9EBFF"/>
+    <path d="M159 213L191 232.5L223 213V227.5L191 247L159 227.5V213Z" fill="#F6BD60"/>
+  </g>
+
+  <text x="154" y="314" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="700">
+    Caribbean Climate
+  </text>
+  <text x="154" y="390" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="700">
+    Resilience Orchestrator
+  </text>
+  <text x="156" y="438" fill="#9FD3FF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="5">
+    MULTI-AGENT CLIMATE PLANNING FOR THE CARIBBEAN
+  </text>
+
+  <text x="944" y="190" fill="#A9D6E5" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4">
+    REASONING CHAIN
+  </text>
+
+  <g fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif">
+    <rect x="944" y="228" width="178" height="74" rx="18" fill="#0F2637"/>
+    <text x="970" y="258" font-size="16" font-weight="700">IngestionAgent</text>
+    <text x="970" y="282" font-size="13" fill="#A7BCD0">Climate + infra sources</text>
+
+    <rect x="1140" y="228" width="178" height="74" rx="18" fill="#0F2637"/>
+    <text x="1168" y="258" font-size="16" font-weight="700">OntologyAgent</text>
+    <text x="1168" y="282" font-size="13" fill="#A7BCD0">Fabric semantics</text>
+
+    <rect x="1042" y="326" width="178" height="74" rx="18" fill="#0F2637"/>
+    <text x="1060" y="356" font-size="16" font-weight="700">RiskAssessment</text>
+    <text x="1060" y="380" font-size="13" fill="#A7BCD0">Parish-level scoring</text>
+
+    <rect x="944" y="424" width="178" height="74" rx="18" fill="#0F2637"/>
+    <text x="978" y="454" font-size="16" font-weight="700">ScenarioAgent</text>
+    <text x="978" y="478" font-size="13" fill="#A7BCD0">Budget what-if analysis</text>
+
+    <rect x="1140" y="424" width="178" height="74" rx="18" fill="#0F2637"/>
+    <text x="1158" y="454" font-size="16" font-weight="700">Recommendation</text>
+    <text x="1158" y="478" font-size="13" fill="#A7BCD0">Ranked action brief</text>
+  </g>
+
+  <path d="M1122 265H1140" stroke="#F6BD60" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1230 302V326" stroke="#F6BD60" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1042 363H1020C998 363 980 381 980 403V424" stroke="#F6BD60" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1220 363H1242C1264 363 1282 381 1282 403V424" stroke="#F6BD60" stroke-width="4" stroke-linecap="round"/>
+
+  <text x="156" y="496" fill="#F6BD60" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">
+    FOUND RY • SEARCH • MAPS • FABRIC • POWER BI
+  </text>
+</svg>

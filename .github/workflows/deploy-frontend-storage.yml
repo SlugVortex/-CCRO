@@ -1,0 +1,64 @@
+name: Deploy frontend to Azure Storage
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'vite.config.ts'
+      - 'tsconfig*.json'
+      - '.github/workflows/deploy-frontend-storage.yml'
+  workflow_dispatch:
+
+jobs:
+  deploy-frontend:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build frontend
+        env:
+          VITE_API_BASE_URL: ${{ secrets.VITE_API_BASE_URL }}
+          VITE_AZURE_MAPS_KEY: ${{ secrets.VITE_AZURE_MAPS_KEY }}
+          VITE_AZURE_MAPS_CLIENT_ID: ${{ secrets.VITE_AZURE_MAPS_CLIENT_ID }}
+          VITE_APP_TITLE: Caribbean Climate Resilience Orchestrator
+        run: |
+          npm run build
+          cp dist/index.html dist/404.html
+
+      - name: Azure login
+        uses: azure/login@v2
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Enable static website
+        run: |
+          az storage blob service-properties update \
+            --account-name "${{ secrets.AZURE_STORAGE_ACCOUNT }}" \
+            --auth-mode login \
+            --static-website \
+            --index-document index.html \
+            --404-document 404.html
+
+      - name: Upload frontend directly to $web
+        run: |
+          az storage blob upload-batch \
+            --account-name "${{ secrets.AZURE_STORAGE_ACCOUNT }}" \
+            --auth-mode login \
+            --destination '$web' \
+            --source dist \
+            --overwrite

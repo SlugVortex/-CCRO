@@ -1,0 +1,5 @@
+name,type,last_updated,status
+NOAA IBTrACS Atlantic hurricane archive,Historical storm tracks,2026-06-08,Healthy
+IPCC AR6 sea-level scenarios,Projection dataset,2026-06-03,Healthy
+WorldPop + national census snapshots,Population and vulnerability,2026-06-06,Healthy
+Critical infrastructure registry,"Hospitals, roads, shelters",2026-06-09,Healthy

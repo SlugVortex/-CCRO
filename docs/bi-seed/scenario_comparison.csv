@@ -1,0 +1,11 @@
+country_code,country_name,scenario_name,horizon_year,region_id,region_name,baseline_risk_score,scenario_risk_score,baseline_people_at_risk,scenario_people_at_risk,baseline_annual_loss_musd,scenario_annual_loss_musd
+JM,Jamaica,2035 Lifeline Protection Plan,2035,kingston,Kingston,84.6,66.2,78518,66295,185.6,159.9
+JM,Jamaica,2035 Lifeline Protection Plan,2035,st-andrew,St. Andrew,73.8,61.6,439572,389639,201.0,180.8
+JM,Jamaica,2035 Lifeline Protection Plan,2035,st-catherine,St. Catherine,78.5,61.7,414770,352610,237.8,206.2
+JM,Jamaica,2035 Lifeline Protection Plan,2035,clarendon,Clarendon,64.1,57.9,170974,160124,98.6,93.2
+JM,Jamaica,2035 Lifeline Protection Plan,2035,manchester,Manchester,47.7,42.8,110916,104231,48.8,46.3
+JM,Jamaica,2035 Lifeline Protection Plan,2035,st-elizabeth,St. Elizabeth,51.9,47.0,91607,86357,47.0,44.6
+JM,Jamaica,2035 Lifeline Protection Plan,2035,westmoreland,Westmoreland,62.8,56.7,99154,92880,79.8,75.4
+JM,Jamaica,2035 Lifeline Protection Plan,2035,st-james,St. James,69.2,54.6,135842,116550,139.5,122.1
+JM,Jamaica,2035 Lifeline Protection Plan,2035,portland,Portland,66.2,59.8,59167,55372,61.7,58.2
+JM,Jamaica,2035 Lifeline Protection Plan,2035,st-thomas,St. Thomas,73.9,66.7,72946,68060,104.8,98.6

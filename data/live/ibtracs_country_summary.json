@@ -1,0 +1,40 @@
+{
+  "source": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r01/access/csv/ibtracs.NA.list.v04r01.csv",
+  "countries": [
+    {
+      "country_code": "JM",
+      "country_name": "Jamaica",
+      "storms_near_country_since_2005": 9,
+      "yearly_track_hits": {
+        "2005": 2,
+        "2008": 8,
+        "2012": 3,
+        "2021": 8,
+        "2023": 2,
+        "2024": 1,
+        "2025": 4
+      }
+    },
+    {
+      "country_code": "BB",
+      "country_name": "Barbados",
+      "storms_near_country_since_2005": 4,
+      "yearly_track_hits": {
+        "2010": 1,
+        "2017": 1,
+        "2019": 2,
+        "2023": 1
+      }
+    },
+    {
+      "country_code": "DM",
+      "country_name": "Dominica",
+      "storms_near_country_since_2005": 3,
+      "yearly_track_hits": {
+        "2017": 3,
+        "2018": 1,
+        "2021": 1
+      }
+    }
+  ]
+}

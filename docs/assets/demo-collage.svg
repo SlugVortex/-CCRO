@@ -1,0 +1,76 @@
+<svg width="1600" height="980" viewBox="0 0 1600 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="980" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08161E"/>
+      <stop offset="1" stop-color="#122D3A"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#102936"/>
+      <stop offset="1" stop-color="#0B1E29"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2A9D8F"/>
+      <stop offset="1" stop-color="#EF8354"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="980" fill="url(#bg)"/>
+
+  <text x="76" y="88" fill="#F7FBFF" font-size="38" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Caribbean Climate Resilience Orchestrator demo surfaces</text>
+  <text x="76" y="124" fill="#A9C6D6" font-size="20" font-family="Segoe UI, Arial, sans-serif">A climate command center built from the template foundation and tuned for a Microsoft hackathon demo</text>
+
+  <g>
+    <rect x="76" y="174" width="690" height="320" rx="30" fill="url(#card)" stroke="#2A9D8F" stroke-opacity="0.55"/>
+    <rect x="832" y="174" width="690" height="320" rx="30" fill="url(#card)" stroke="#2A9D8F" stroke-opacity="0.55"/>
+    <rect x="76" y="542" width="690" height="320" rx="30" fill="url(#card)" stroke="#2A9D8F" stroke-opacity="0.55"/>
+    <rect x="832" y="542" width="690" height="320" rx="30" fill="url(#card)" stroke="#2A9D8F" stroke-opacity="0.55"/>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="114" y="228" fill="#F7FBFF" font-size="26" font-weight="700">1. Risk Map Dashboard</text>
+    <text x="114" y="258" fill="#A9C6D6" font-size="17">Hotspots, risk deltas, and the agent reasoning rail</text>
+    <rect x="114" y="292" width="376" height="150" rx="22" fill="#143847" stroke="#4DC2B4" stroke-opacity="0.45"/>
+    <rect x="514" y="292" width="198" height="66" rx="18" fill="#173F4F"/>
+    <rect x="514" y="376" width="198" height="66" rx="18" fill="#173F4F"/>
+    <circle cx="220" cy="346" r="28" fill="#D1495B"/>
+    <circle cx="320" cy="386" r="22" fill="#EF8354"/>
+    <circle cx="406" cy="334" r="18" fill="#2A9D8F"/>
+    <text x="536" y="331" fill="#F7FBFF" font-size="15" font-weight="600">High-risk parishes</text>
+    <text x="536" y="407" fill="#F7FBFF" font-size="15" font-weight="600">Annual loss estimate</text>
+    <rect x="114" y="458" width="598" height="12" rx="6" fill="url(#accent)" fill-opacity="0.45"/>
+
+    <text x="870" y="228" fill="#F7FBFF" font-size="26" font-weight="700">2. Scenario Builder</text>
+    <text x="870" y="258" fill="#A9C6D6" font-size="17">Intervention selection, budget control, and impact preview</text>
+    <rect x="870" y="292" width="246" height="150" rx="22" fill="#173847" stroke="#EF8354" stroke-opacity="0.45"/>
+    <rect x="1138" y="292" width="328" height="150" rx="22" fill="#143847" stroke="#4DC2B4" stroke-opacity="0.45"/>
+    <rect x="894" y="320" width="198" height="18" rx="9" fill="#D1495B"/>
+    <rect x="894" y="356" width="162" height="18" rx="9" fill="#EF8354"/>
+    <rect x="894" y="392" width="214" height="18" rx="9" fill="#2A9D8F"/>
+    <polyline points="1170,402 1230,370 1300,392 1360,332 1424,346" fill="none" stroke="#F7FBFF" stroke-width="5"/>
+    <text x="870" y="472" fill="#D8EDF6" font-size="15">Scenario mode compares baseline vs intervention-adjusted regional risk.</text>
+
+    <text x="114" y="596" fill="#F7FBFF" font-size="26" font-weight="700">3. Recommendations and Brief</text>
+    <text x="114" y="626" fill="#A9C6D6" font-size="17">Ranked actions, exportable brief, and judge-friendly narrative</text>
+    <rect x="114" y="658" width="598" height="54" rx="16" fill="#173847"/>
+    <rect x="114" y="728" width="598" height="54" rx="16" fill="#173847"/>
+    <rect x="114" y="798" width="598" height="20" rx="10" fill="url(#accent)" fill-opacity="0.45"/>
+    <text x="142" y="692" fill="#F7FBFF" font-size="16" font-weight="600">#1 Harden hospital corridors and backup power</text>
+    <text x="142" y="762" fill="#F7FBFF" font-size="16" font-weight="600">#2 Elevate evacuation road segments in coastal hotspots</text>
+
+    <text x="870" y="596" fill="#F7FBFF" font-size="26" font-weight="700">4. Data and Audit</text>
+    <text x="870" y="626" fill="#A9C6D6" font-size="17">Data freshness, ontology snapshot, guardrails, and traceability</text>
+    <rect x="870" y="658" width="286" height="160" rx="22" fill="#173847"/>
+    <rect x="1180" y="658" width="286" height="160" rx="22" fill="#173847"/>
+    <text x="894" y="700" fill="#F7FBFF" font-size="16" font-weight="700">Source health</text>
+    <text x="894" y="736" fill="#D8EDF6" font-size="15">NOAA feeds</text>
+    <text x="894" y="762" fill="#D8EDF6" font-size="15">Flood overlays</text>
+    <text x="894" y="788" fill="#D8EDF6" font-size="15">Population snapshots</text>
+    <text x="1204" y="700" fill="#F7FBFF" font-size="16" font-weight="700">Ontology and guardrails</text>
+    <text x="1204" y="736" fill="#D8EDF6" font-size="15">Parish -> serves_population -> Hospital</text>
+    <text x="1204" y="762" fill="#D8EDF6" font-size="15">Budget-bound recommendations</text>
+    <text x="1204" y="788" fill="#D8EDF6" font-size="15">Grounded citations fallback</text>
+  </g>
+
+  <rect x="76" y="900" width="1446" height="32" rx="16" fill="url(#accent)" fill-opacity="0.16" stroke="#4DC2B4" stroke-opacity="0.3"/>
+  <text x="102" y="922" fill="#D8EDF6" font-size="16" font-family="Segoe UI, Arial, sans-serif">The real app is designed to look like a resilience operations product, not a stock AI dashboard: spatial, policy-oriented, and built for a live ministerial demo.</text>
+</svg>

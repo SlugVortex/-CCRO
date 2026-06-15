@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caribbean Climate Resilience Orchestrator</title>
+  <style>
+    #splash-screen {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      background: white;
+      display: flex;
+      height: 100%;
+      width: 100%;
+      transform: translate(-50%, -50%);
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      opacity: 1;
+      transition: all 15s linear;
+      overflow: hidden;
+      background: #f5efe8;
+    }
+
+    #splash-screen.remove {
+      animation: fadeout 0.7s forwards;
+      z-index: 0;
+    }
+
+    @keyframes fadeout {
+      to {
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+
+    .ccro-splash {
+      display: inline-flex;
+      align-items: center;
+      gap: 1rem;
+      color: #172033;
+      font-family: Poppins, "Segoe UI", Arial, sans-serif;
+    }
+
+    .ccro-splash img {
+      width: 3.2rem;
+      height: 3.2rem;
+      display: block;
+      flex: 0 0 auto;
+    }
+
+    .ccro-splash-copy {
+      display: grid;
+      gap: 0.15rem;
+    }
+
+    .ccro-splash-copy strong {
+      display: block;
+      font-size: 1.2rem;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+
+    .ccro-splash-copy span {
+      display: block;
+      color: #0e56d7;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <div id="splash-screen">
+    <div class="ccro-splash" aria-hidden="true">
+      <img alt="CCRO mark" src="/ccro-mark.svg" />
+      <div class="ccro-splash-copy">
+        <strong>Caribbean Climate Resilience Orchestrator</strong>
+        <span>Climate planning workbench</span>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    const rootEl = document.querySelector('#root')
+    new MutationObserver(() => {
+      document.querySelector('#splash-screen')?.classList.add('remove');
+    }).observe(rootEl, { childList: true });
+  </script>
+</body>
+
+</html>

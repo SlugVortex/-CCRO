@@ -1,0 +1,64 @@
+country_code,country_name,horizon_year,region_id,region_name,risk_score,risk_band,people_at_risk,critical_facilities_at_risk,expected_loss_musd,population,critical_facilities,hurricane_score,flood_score,sea_level_score,drivers
+JM,Jamaica,2030,kingston,Kingston,78.3,High,74333,11,176.8,93000,14,76.0,90.0,88.0,Floodplain and drainage pressure | Sea-level and storm surge exposure | Critical infrastructure exposure
+JM,Jamaica,2030,st-andrew,St. Andrew,68.4,High,417471,13,192.1,573000,19,74.0,79.0,70.0,Floodplain and drainage pressure | Hurricane corridor stress | Sea-level and storm surge exposure
+JM,Jamaica,2030,st-catherine,St. Catherine,72.7,High,393310,15,226.9,518000,21,82.0,77.0,81.0,Hurricane corridor stress | Sea-level and storm surge exposure | Floodplain and drainage pressure
+JM,Jamaica,2030,clarendon,Clarendon,59.3,Moderate,162574,6,94.4,245000,10,68.0,71.0,59.0,Floodplain and drainage pressure | Hurricane corridor stress | Sea-level and storm surge exposure
+JM,Jamaica,2030,manchester,Manchester,44.2,Watch,106141,4,47.0,191000,8,60.0,49.0,35.0,Hurricane corridor stress | Floodplain and drainage pressure | Critical infrastructure exposure
+JM,Jamaica,2030,st-elizabeth,St. Elizabeth,48.1,Watch,87535,3,45.2,150000,7,63.0,52.0,45.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+JM,Jamaica,2030,westmoreland,Westmoreland,58.2,Moderate,94422,5,76.5,144000,8,70.0,64.0,62.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+JM,Jamaica,2030,st-james,St. James,64.0,Moderate,128971,8,133.3,185000,12,79.0,61.0,73.0,Hurricane corridor stress | Sea-level and storm surge exposure | Floodplain and drainage pressure
+JM,Jamaica,2030,portland,Portland,61.3,Moderate,56262,4,59.0,83000,6,83.0,74.0,69.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+JM,Jamaica,2030,st-thomas,St. Thomas,68.4,High,69214,6,100.1,95000,9,85.0,82.0,76.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+JM,Jamaica,2035,kingston,Kingston,84.6,Critical,78518,12,185.6,93000,14,76.0,90.0,88.0,Floodplain and drainage pressure | Sea-level and storm surge exposure | Critical infrastructure exposure
+JM,Jamaica,2035,st-andrew,St. Andrew,73.8,High,439572,14,201.0,573000,19,74.0,79.0,70.0,Floodplain and drainage pressure | Hurricane corridor stress | Sea-level and storm surge exposure
+JM,Jamaica,2035,st-catherine,St. Catherine,78.5,High,414770,16,237.8,518000,21,82.0,77.0,81.0,Hurricane corridor stress | Sea-level and storm surge exposure | Floodplain and drainage pressure
+JM,Jamaica,2035,clarendon,Clarendon,64.1,Moderate,170974,6,98.6,245000,10,68.0,71.0,59.0,Floodplain and drainage pressure | Hurricane corridor stress | Sea-level and storm surge exposure
+JM,Jamaica,2035,manchester,Manchester,47.7,Watch,110916,4,48.8,191000,8,60.0,49.0,35.0,Hurricane corridor stress | Floodplain and drainage pressure | Critical infrastructure exposure
+JM,Jamaica,2035,st-elizabeth,St. Elizabeth,51.9,Watch,91607,4,47.0,150000,7,63.0,52.0,45.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+JM,Jamaica,2035,westmoreland,Westmoreland,62.8,Moderate,99154,5,79.8,144000,8,70.0,64.0,62.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+JM,Jamaica,2035,st-james,St. James,69.2,High,135842,8,139.5,185000,12,79.0,61.0,73.0,Hurricane corridor stress | Sea-level and storm surge exposure | Floodplain and drainage pressure
+JM,Jamaica,2035,portland,Portland,66.2,Moderate,59167,4,61.7,83000,6,83.0,74.0,69.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+JM,Jamaica,2035,st-thomas,St. Thomas,73.9,High,72946,7,104.8,95000,9,85.0,82.0,76.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+JM,Jamaica,2050,kingston,Kingston,97.2,Critical,85560,14,203.3,93000,14,76.0,90.0,88.0,Floodplain and drainage pressure | Sea-level and storm surge exposure | Critical infrastructure exposure
+JM,Jamaica,2050,st-andrew,St. Andrew,84.8,Critical,484594,16,219.1,573000,19,74.0,79.0,70.0,Floodplain and drainage pressure | Hurricane corridor stress | Sea-level and storm surge exposure
+JM,Jamaica,2050,st-catherine,St. Catherine,90.1,Critical,457690,19,259.6,518000,21,82.0,77.0,81.0,Hurricane corridor stress | Sea-level and storm surge exposure | Floodplain and drainage pressure
+JM,Jamaica,2050,clarendon,Clarendon,73.6,High,187600,7,107.0,245000,10,68.0,71.0,59.0,Floodplain and drainage pressure | Hurricane corridor stress | Sea-level and storm surge exposure
+JM,Jamaica,2050,manchester,Manchester,54.7,Moderate,120466,4,52.4,191000,8,60.0,49.0,35.0,Hurricane corridor stress | Floodplain and drainage pressure | Critical infrastructure exposure
+JM,Jamaica,2050,st-elizabeth,St. Elizabeth,59.6,Moderate,99857,4,50.6,150000,7,63.0,52.0,45.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+JM,Jamaica,2050,westmoreland,Westmoreland,72.1,High,108720,6,86.5,144000,8,70.0,64.0,62.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+JM,Jamaica,2050,st-james,St. James,79.4,High,149321,10,151.6,185000,12,79.0,61.0,73.0,Hurricane corridor stress | Sea-level and storm surge exposure | Floodplain and drainage pressure
+JM,Jamaica,2050,portland,Portland,76.0,High,64977,5,67.0,83000,6,83.0,74.0,69.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+JM,Jamaica,2050,st-thomas,St. Thomas,84.8,Critical,80342,8,114.2,95000,9,85.0,82.0,76.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+BB,Barbados,2030,st-michael,St. Michael,73.7,High,67445,10,124.1,88000,13,72.0,77.0,91.0,Sea-level and storm surge exposure | Floodplain and drainage pressure | Hurricane corridor stress
+BB,Barbados,2030,christ-church,Christ Church,68.4,High,40800,5,82.6,56000,8,74.0,69.0,89.0,Sea-level and storm surge exposure | Hurricane corridor stress | Floodplain and drainage pressure
+BB,Barbados,2030,st-philip,St. Philip,60.2,Moderate,20769,4,47.6,31000,6,79.0,58.0,82.0,Sea-level and storm surge exposure | Hurricane corridor stress | Floodplain and drainage pressure
+BB,Barbados,2030,st-james-bb,St. James,54.5,Moderate,18249,3,36.9,29000,5,67.0,51.0,76.0,Sea-level and storm surge exposure | Hurricane corridor stress | Floodplain and drainage pressure
+BB,Barbados,2030,st-lucy,St. Lucy,48.9,Watch,5892,1,17.4,10000,3,71.0,43.0,70.0,Hurricane corridor stress | Sea-level and storm surge exposure | Floodplain and drainage pressure
+BB,Barbados,2030,st-george-bb,St. George,43.7,Watch,10490,2,20.2,19000,4,62.0,48.0,44.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+BB,Barbados,2035,st-michael,St. Michael,79.6,High,71154,10,130.2,88000,13,72.0,77.0,91.0,Sea-level and storm surge exposure | Floodplain and drainage pressure | Hurricane corridor stress
+BB,Barbados,2035,christ-church,Christ Church,73.8,High,42960,6,86.5,56000,8,74.0,69.0,89.0,Sea-level and storm surge exposure | Hurricane corridor stress | Floodplain and drainage pressure
+BB,Barbados,2035,st-philip,St. Philip,65.0,Moderate,21832,4,49.7,31000,6,79.0,58.0,82.0,Sea-level and storm surge exposure | Hurricane corridor stress | Floodplain and drainage pressure
+BB,Barbados,2035,st-james-bb,St. James,58.9,Moderate,19160,3,38.5,29000,5,67.0,51.0,76.0,Sea-level and storm surge exposure | Hurricane corridor stress | Floodplain and drainage pressure
+BB,Barbados,2035,st-lucy,St. Lucy,52.9,Moderate,6178,2,18.2,10000,3,71.0,43.0,70.0,Hurricane corridor stress | Sea-level and storm surge exposure | Floodplain and drainage pressure
+BB,Barbados,2035,st-george-bb,St. George,47.2,Watch,10965,2,20.9,19000,4,62.0,48.0,44.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+BB,Barbados,2050,st-michael,St. Michael,91.4,Critical,78571,12,142.2,88000,13,72.0,77.0,91.0,Sea-level and storm surge exposure | Floodplain and drainage pressure | Hurricane corridor stress
+BB,Barbados,2050,christ-church,Christ Church,84.8,Critical,47359,7,94.3,56000,8,74.0,69.0,89.0,Sea-level and storm surge exposure | Hurricane corridor stress | Floodplain and drainage pressure
+BB,Barbados,2050,st-philip,St. Philip,74.6,High,23958,4,53.9,31000,6,79.0,58.0,82.0,Sea-level and storm surge exposure | Hurricane corridor stress | Floodplain and drainage pressure
+BB,Barbados,2050,st-james-bb,St. James,67.6,Moderate,20962,3,41.6,29000,5,67.0,51.0,76.0,Sea-level and storm surge exposure | Hurricane corridor stress | Floodplain and drainage pressure
+BB,Barbados,2050,st-lucy,St. Lucy,60.7,Moderate,6735,2,19.6,10000,3,71.0,43.0,70.0,Hurricane corridor stress | Sea-level and storm surge exposure | Floodplain and drainage pressure
+BB,Barbados,2050,st-george-bb,St. George,54.2,Moderate,11915,2,22.5,19000,4,62.0,48.0,44.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+DM,Dominica,2030,st-george-dm,St. George,69.5,High,15465,5,56.4,21000,7,88.0,79.0,72.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+DM,Dominica,2030,st-paul-dm,St. Paul,55.6,Moderate,5415,2,19.7,8500,3,84.0,68.0,49.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+DM,Dominica,2030,st-david-dm,St. David,59.9,Moderate,4274,2,19.4,6400,3,86.0,72.0,67.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+DM,Dominica,2030,st-patrick-dm,St. Patrick,57.0,Moderate,4788,2,17.8,7400,3,82.0,70.0,62.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+DM,Dominica,2030,st-andrew-dm,St. Andrew,58.1,Moderate,6419,2,22.3,9800,4,83.0,73.0,57.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+DM,Dominica,2035,st-george-dm,St. George,75.1,High,16304,5,59.1,21000,7,88.0,79.0,72.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+DM,Dominica,2035,st-paul-dm,St. Paul,60.1,Moderate,5688,2,20.5,8500,3,84.0,68.0,49.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+DM,Dominica,2035,st-david-dm,St. David,64.7,Moderate,4493,2,20.3,6400,3,86.0,72.0,67.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+DM,Dominica,2035,st-patrick-dm,St. Patrick,61.6,Moderate,5031,2,18.6,7400,3,82.0,70.0,62.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+DM,Dominica,2035,st-andrew-dm,St. Andrew,62.7,Moderate,6741,3,23.2,9800,4,83.0,73.0,57.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+DM,Dominica,2050,st-george-dm,St. George,86.2,Critical,17970,6,64.4,21000,7,88.0,79.0,72.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+DM,Dominica,2050,st-paul-dm,St. Paul,69.0,High,6229,2,22.2,8500,3,84.0,68.0,49.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+DM,Dominica,2050,st-david-dm,St. David,74.3,High,4932,2,22.0,6400,3,86.0,72.0,67.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+DM,Dominica,2050,st-patrick-dm,St. Patrick,70.7,High,5513,2,20.2,7400,3,82.0,70.0,62.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
+DM,Dominica,2050,st-andrew-dm,St. Andrew,72.0,High,7391,3,25.2,9800,4,83.0,73.0,57.0,Hurricane corridor stress | Floodplain and drainage pressure | Sea-level and storm surge exposure
