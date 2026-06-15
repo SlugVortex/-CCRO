@@ -16,6 +16,7 @@ dist-ssr
 .env.*
 !.env.example
 !.env.local.example
+azure-credentials.json
 .venv
 venv
 __pycache__

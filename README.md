@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="docs/assets/ccro-github-banner.svg" alt="Caribbean Climate Resilience Orchestrator Banner" width="100%">
+  <img src="https://i.ibb.co/jPxf89Sh/ig-0256af487c650db3016a2e23ae2ac8819382c56c2408a36a9f.png" alt="Caribbean Climate Resilience Orchestrator Banner" width="100%">
+</div>
+
+<div align="center">
+  <img src="https://i.ibb.co/hxqFTVSQ/ig-0256af487c650db3016a2e237cb7dc8193bb87b4d71bf7a97b.png" alt="Caribbean Climate Resilience Orchestrator Logo" width="320">
 </div>
 
 # Caribbean Climate Resilience Orchestrator
@@ -120,7 +124,7 @@ The application is built around a clear agent chain:
 ## System Architecture
 
 <div align="center">
-  <img src="docs/assets/architecture-diagram.svg" alt="Caribbean Climate Resilience Orchestrator Architecture Diagram" width="900">
+  <img src="https://i.ibb.co/vxNg563H/image.png" alt="Caribbean Climate Resilience Orchestrator Architecture Diagram" width="900">
 </div>
 
 The editable Mermaid source lives in [docs/architecture.mmd](docs/architecture.mmd).
@@ -244,7 +248,19 @@ Full demo notes are in [docs/demo-runbook.md](docs/demo-runbook.md).
 ### GitHub Banner
 
 <div align="center">
-  <img src="docs/assets/ccro-github-banner.svg" alt="CCRO GitHub Banner Placeholder" width="100%">
+  <img src="https://i.ibb.co/jPxf89Sh/ig-0256af487c650db3016a2e23ae2ac8819382c56c2408a36a9f.png" alt="CCRO GitHub Banner" width="100%">
+</div>
+
+### Brand Lockup
+
+<div align="center">
+  <img src="https://i.ibb.co/hxqFTVSQ/ig-0256af487c650db3016a2e237cb7dc8193bb87b4d71bf7a97b.png" alt="CCRO Brand Lockup" width="420">
+</div>
+
+### Architecture
+
+<div align="center">
+  <img src="https://i.ibb.co/vxNg563H/image.png" alt="CCRO Architecture Diagram" width="900">
 </div>
 
 ### Dashboard
