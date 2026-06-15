@@ -3,11 +3,6 @@ name: Deploy backend to Azure App Service
 on:
   push:
     branches: [main]
-    paths:
-      - 'backend/**'
-      - 'requirements.txt'
-      - 'startup.sh'
-      - '.github/workflows/deploy-backend-webapp.yml'
   workflow_dispatch:
 
 jobs:
