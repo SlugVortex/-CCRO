@@ -39,6 +39,20 @@ class ApiTests(unittest.TestCase):
         self.assertGreater(payload["summary"]["budget_used_musd"], 0)
         self.assertGreaterEqual(len(payload["recommendations"]), 1)
 
+    def test_cors_allows_deployed_frontend_origin(self) -> None:
+        response = client.options(
+            "/api/v1/health",
+            headers={
+                "Origin": "https://ccrofrontendstatic.z13.web.core.windows.net",
+                "Access-Control-Request-Method": "GET",
+            },
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(
+            response.headers.get("access-control-allow-origin"),
+            "https://ccrofrontendstatic.z13.web.core.windows.net",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

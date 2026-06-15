@@ -29,6 +29,16 @@ def _parse_csv(value: str | None, default: list[str]) -> list[str]:
     return [item.strip() for item in value.split(",") if item.strip()]
 
 
+def _normalize_origin(value: str) -> str:
+    return value.strip().rstrip("/")
+
+
+DEFAULT_CORS_ORIGINS = [
+    "http://localhost:5173",
+    "https://ccrofrontendstatic.z13.web.core.windows.net",
+]
+
+
 @dataclass(slots=True)
 class Settings:
     app_name: str = "Caribbean Climate Resilience Orchestrator API"
@@ -106,11 +116,22 @@ class Settings:
 
 @lru_cache(maxsize=1)
 def get_settings() -> Settings:
+    configured_origins = _parse_csv(os.getenv("CORS_ORIGINS"), DEFAULT_CORS_ORIGINS)
+    frontend_url = os.getenv("FRONTEND_URL", "")
+    merged_origins: list[str] = []
+
+    for origin in [*DEFAULT_CORS_ORIGINS, *configured_origins, frontend_url]:
+        if not origin:
+            continue
+        normalized = _normalize_origin(origin)
+        if normalized and normalized not in merged_origins:
+            merged_origins.append(normalized)
+
     return Settings(
         app_name=os.getenv("APP_NAME", "Caribbean Climate Resilience Orchestrator API"),
         app_env=os.getenv("APP_ENV", "development"),
         api_prefix=os.getenv("API_PREFIX", "/api/v1"),
-        cors_origins=_parse_csv(os.getenv("CORS_ORIGINS"), ["http://localhost:5173"]),
+        cors_origins=merged_origins or DEFAULT_CORS_ORIGINS,
         default_country=os.getenv("DEFAULT_COUNTRY", "JM"),
         default_horizon=int(os.getenv("DEFAULT_HORIZON", "2050")),
         enable_azure_openai=_parse_bool(os.getenv("ENABLE_AZURE_OPENAI"), False),
